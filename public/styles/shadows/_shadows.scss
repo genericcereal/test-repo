@@ -1,0 +1,15 @@
+@mixin prefix($property, $value, $prefixes: ()) {
+  @each $prefix in $prefixes {
+    #{'-' + $prefix + '-' + $property}: $value;
+  }
+
+  // Output standard non-prefixed declaration
+  #{$property}: $value;
+}
+
+.shadow-1 {
+  @include prefix(box-shadow,  0px 4px 5px $shadow2, webkit ms);
+}
+.shadow-3 {
+  @include prefix(box-shadow,  0px 20px 30px $shadow1, webkit ms);
+}

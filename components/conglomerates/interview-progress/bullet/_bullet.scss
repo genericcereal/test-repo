@@ -1,0 +1,48 @@
+@import  '../../../../public/styles/variables/_spacing.scss';
+@import  '../../../../public/styles/variables/_colors.scss';
+
+
+.bullet {
+  display: inline-block;
+  position: relative;
+  margin-right: 1.5 * $sm;
+}
+
+
+.outer {
+  height: 24px;
+  width: 24px;
+  display: block;
+  position: relative;
+}
+
+.inner {
+  display: block;
+  margin: auto;
+  top: 6px;
+  position: relative;
+  height: 12px;
+  width: 12px;
+  background-color: $white;
+}
+
+
+
+/* state styles */
+
+
+.upcoming {
+    background-color: $blue3;
+}
+
+.future {
+  border: 2px solid $grey4;
+  background: none;
+  box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+}
+
+.future .inner {
+  background: none;
+}

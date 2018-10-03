@@ -1,0 +1,46 @@
+
+@import  './avenir/avenir.scss';
+
+
+* {
+  -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+font-family: 'Avenir LT Std 85 Heavy';
+}
+
+
+h3 {
+  font-size: 3em;
+}
+
+h4 {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-block-start: auto;
+  margin-block-end: auto;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+}
+
+p {
+  font-family: 'Avenir LT Std 55 Roman';
+  font-size: 0.8em;
+  font-weight: 300;
+  display: block;
+margin-block-start: auto;
+margin-block-end: auto;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+.font-std {
+  font-size: 1.3em;
+}
+
+.icon-med {
+  font-size: 2em;
+  line-height: 1.4;
+}

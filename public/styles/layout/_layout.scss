@@ -1,0 +1,47 @@
+@import  '../variables/spacing.scss';
+
+
+.p-1 {
+  padding: 1 * $sm;
+}
+.p-2 {
+  padding: 2 * $sm;
+}
+
+.p-1m {
+  padding: $md;
+}
+
+.pt-2 {
+  padding-top: 2 * $sm;
+}
+
+.pb-2 {
+  padding-bottom: 2 * $sm;
+}
+
+.p-40 {
+  padding: 40px;
+}
+
+
+.mt-2 {
+  margin-top: 2 * $sm;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.clearfix {
+  clear:both;
+}
