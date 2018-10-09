@@ -11,7 +11,7 @@ class StandardCard extends React.Component {
  render() {
 
    return (
-     <div className={'br-1 border-1-grey2 p-1m ' + this.props.className}>
+     <div className={'br-1 border-1-grey2 p-1m standard-card ' + this.props.className}>
       {this.props.children}
      </div>
 
